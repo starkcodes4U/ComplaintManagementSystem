@@ -5,7 +5,7 @@ from flask_cors import CORS
 import psycopg2 as pg
 def create_db():
     # Connect to default db 
-    conn = pg.connect("host=127.0.0.1 dbname=postgres user=postgres password=lipuni123")
+    conn = pg.connect("host=127.0.0.1 dbname=postgres user=postgres password=Raghu@1234")
     conn.set_session(autocommit=True)
     cur = conn.cursor()
     
